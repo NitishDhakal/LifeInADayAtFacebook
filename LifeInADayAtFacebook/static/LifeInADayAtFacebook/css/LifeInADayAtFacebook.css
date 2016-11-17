@@ -1,0 +1,120 @@
+.timeAxis .title {
+    font-weight: bold;
+    text-anchor: middle;
+  }
+  .timeAxis path,
+  .timeAxis line {
+    fill: none;
+ stroke:green;
+ opacity:0.2;
+ stroke-width:2px;
+    shape-rendering: crispEdges;
+  }
+
+   .interactiveLineAxis path,
+  .interactiveLineAxis line {
+    fill: none;
+ stroke:green;
+ opacity:0.2;
+ stroke-width:2px;
+    shape-rendering: crispEdges;
+  }
+
+   .interactiveLineAxis tick{
+       fill:green
+   }
+
+  .navigationYAxis path,
+  .navigationYAxis line,.axisBarChart path,.axisBarChart line{
+    stroke:green;
+ opacity:0.2;
+ stroke-width:2px;
+     fill: none;
+  }
+
+  .navigationData  {
+    fill: orange;
+    stroke-width: 0px;
+  }
+
+
+  .rectangleBarSlider {
+  float: left;
+  border: solid 1px #aaa;
+}
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axisSlider path,
+.axisSlider line {
+  fill: none;
+  shape-rendering: crispEdges;
+}
+
+.viewport {
+    stroke: grey;
+    fill: black;
+    fill-opacity: 0.1;
+  }
+  .viewport .extent {
+    fill: green;
+  }
+
+  .rectMainChart{
+      position:absolute;
+    z-index:-1;
+  }
+
+  #frontDateDisplay{
+       position:absolute;
+    z-index:1;
+  }
+
+  .tick text{
+      fill:black;
+      opacity:1;
+      font-size:14px
+  }
+
+  .axisBarChart >.tick text{
+      opacity:0.4
+  }
+
+   .interactiveLineAxis >.tick text{
+      opacity:0.4
+  }
+
+
+  .barChartTitle{
+          opacity: 0.4;
+  }
+
+
+  #latencyPeriod{
+          opacity: 0.4;
+  }
+
+
+    .lineChartTitle,.datapointsLineChart{
+          opacity: 0.4;
+  }
+
+.tooltip1 {
+    fill-opacity: 0.4;
+    transition: fill-opacity 250ms linear;
+}
+
+.tooltip,.tooltip.lineChart.header,.tooltip.dailystats{
+    line-height: 1;
+    padding: 10px 10px;
+    background: green;
+    color: #fff;
+    border-radius: 1px;
+}
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    {% load static %}
+    <link href="{% static  'LifeInADayAtFacebook/css/Login.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div id="pageWrapper">
+    <header id="header" class="alt">
+        <span class="logo"><img src=""></span>
+        <h1>( Life in a Day at Facebook )<sub>Beta</sub></h1>
+        <p> Interactive visualization of what you do, how you spend time and, </br>
+            how your life looks like in a day at </br> Facebook or other Social Media</br>
+        <a href="demo">Demo</p>
+    </header>
+    <div class="loginWrapper">
+        <div class="backgroundColorLoginWrapper"></div>
+        <div class="login submit fb"><a class="userLink" href="login/fb"> Login with <span class="fa-stack fa-lg">
+  <i class="fa fa-square-o fa-stack-2x"></i>
+  <i class="fa fa-facebook fa-stack-1x"></i>
+</span>
+        </a></div>
+        <div class="login submit tw">
+            <a class="userLink" href="login/tw">
+                Login with<span class="fa-stack fa-lg">
+  <i class="fa fa-square-o fa-stack-2x"></i>
+  <i class="fa fa-twitter fa-stack-1x"></i>
+</span>
+            </a>
+        </div>
+    </div>
+    <div id="footer" class="alt">
+       <span class="developerInfo">© Nitish Dhakal 2016</span>
+        <table class="developerInfoTable" style="border:0px;margin:0px;padding:0px;background:none">
+            <tbody>
+            <tr>
+<td colspan="2" style="padding-top:5px"><a href="https://www.facebook.com/nitish.dhakal" style="border:0px;text-decoration:none" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://www.facebook.com/nitish.dhakal&amp;source=gmail&amp;ust=1478298669420000&amp;usg=AFQjCNFpyHarMEkCu_VM5eaPmEzkpoV1nw"><img src="https://ci4.googleusercontent.com/proxy/KSd1y52khHv9agmQvrCbryrM-2fW2_TTiv_ZyM7g8CvIOy1lLeiL98i21qwjj_AtIcK1gmFVa_3klKcL84Nn9soPAtkHRj9nuToKZ86G2yoOSEHDRVJtmcoMmxPmmaYL9i1otg=s0-d-e1-ft#http://cdn2.hubspot.net/hubfs/184235/dev_images/signature_app/facebook_sig.png" style="border:none;width:25px;height:25px;max-width:25px!important;max-height:25px!important" height="25" width="25" class="CToWUd"></a>&nbsp;&nbsp;<a href="https://twitter.com/nitishdhakal" style="border:0px;text-decoration:none" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://twitter.com/nitishdhakal&amp;source=gmail&amp;ust=1478298669420000&amp;usg=AFQjCNFnN5ond9orRVep2CG8FdbZHZQYdw"><img src="https://ci6.googleusercontent.com/proxy/Sh-8YmBCXXgMOdOoPgPtgPnKQjxnBXcEwel_xmwS_cHPKRztClUPBPiJEHPdtG3Hei5hccBS7ONl-N_UCmjOHpHCwBzTomOq7BWdwmxz1KhrziiqbYJgeX4FOXOOh5DEqF8y=s0-d-e1-ft#http://cdn2.hubspot.net/hubfs/184235/dev_images/signature_app/twitter_sig.png" style="border:none;width:25px;height:25px;max-width:25px!important;max-height:25px!important" height="25" width="25" class="CToWUd"></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/nitishdhakal" style="border:0px;text-decoration:none" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://www.linkedin.com/in/nitishdhakal&amp;source=gmail&amp;ust=1478298669420000&amp;usg=AFQjCNEw-9YcPURmja79x8UgZmHMCQemlw"><img src="https://ci5.googleusercontent.com/proxy/hzQ50OystqOxlKMduZD32nQoNlmY4n_0V4lxPUWy5nU5cr1gbQR-03vxhbJL7qRILyM-QnaRbLIvZIoxOof999Ep266X82hDAOK2K4jC9rBUhUVgcslhZQ1jOUHJwKu2s6_4sA=s0-d-e1-ft#http://cdn2.hubspot.net/hubfs/184235/dev_images/signature_app/linkedin_sig.png" style="border:none;width:25px;height:25px;max-width:25px!important;max-height:25px!important" height="25" width="25" class="CToWUd"></a>&nbsp;&nbsp;<a href="https://www.instagram.com/nitishdhakal/" style="border:0px;text-decoration:none" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://www.instagram.com/nitishdhakal/&amp;source=gmail&amp;ust=1478298669420000&amp;usg=AFQjCNEuCfVMW_eA3_MzlVuOHffTpyop5A"><img src="https://ci5.googleusercontent.com/proxy/t2vKDMauGxqy1KRXDMB_eZm3fy6eJXU2r2Fn3u2AHPId5ToSM3oSs1Z6MyzU3jxLrPtF_TO4rEIF8pJi8YZQ7VU9UOsU5Kx-ABz96jBaD8rvbfOQxgqUjcgZnRtmpG03L-fRyBw=s0-d-e1-ft#http://cdn2.hubspot.net/hubfs/184235/dev_images/signature_app/instagram_sig.png" style="border:none;width:25px;height:25px;max-width:25px!important;max-height:25px!important" height="25" width="25" class="CToWUd"></a>&nbsp;&nbsp;<a href="https://github.com/NitishDhakal" style="border:0px;text-decoration:none" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=https://github.com/NitishDhakal&amp;source=gmail&amp;ust=1478298669420000&amp;usg=AFQjCNHYPH9NPLVMrxVuHDLgOkXjK1U_sA"><img src="https://ci4.googleusercontent.com/proxy/3Dv7ZP3xPPgVqV8uvFLy3XmSmclZywOro2vT5rkG7gMK5xPAX1Vd2VJSHA0BYAue8K17coTfDT4K43ZllAn_WJ8tiIc5cKAtGtUCnh1K5X26XLFrW9K6NYXI6v1J=s0-d-e1-ft#https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" style="border:none;width:25px;height:25px;max-width:25px!important;max-height:25px!important" height="25" width="25" class="CToWUd"></a></td>
+</tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body {
+    /*background: #2ca1cc;*/
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.loginWrapper {
+    margin: 0 auto;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    -moz-transform: translate3d(-50%, 0, 0);
+    -ms-transform: translate3d(-50%, 0, 0);
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+    width: 350px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: inherit;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+}
+
+.loginWrapper .backgroundColorLoginWrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.loginWrapper .submit {
+    padding: 22px 50px;
+    width: auto;
+    margin-bottom: 5px;
+    display: block;
+    color: white;
+    position: relative;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.loginWrapper .submit:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+a.userLink {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: inherit;
+    horizontal-align: middle;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+#header.alt .logo img {
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;
+}
+
+h1 {
+    font-size: 3.5em;
+    line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0 0 0.7em 0;
+    letter-spacing: -0.025em;
+}
+#header {
+    padding: 1em 5em 1em 5em;
+    text-align: center;
+}
+
+#footer{
+   /* padding: 19em 5em 1em 38em;*/
+   /* text-align: center;*/
+
+}
+
+#footer {
+    position: fixed;
+    overflow: hidden;
+   top: 90%;
+    right: 0;
+
+}
+

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Life In A Day At Facebook</title>
+    {% load static %}
+    <link href="{% static  'LifeInADayAtFacebook/css/LifeInADayAtFacebook.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static  'LifeInADayAtFacebook/css/UserPostTemplate.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static  'LifeInADayAtFacebook/css/app.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/css/bootstrap-tour-standalone.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="{% static 'LifeInADayAtFacebook/js/LifeInADayAtFacebook.js' %}"></script>
+
+
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.11.0/js/bootstrap-tour-standalone.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div id="site-title">
+            <h3><a href="{{ host }}" title="Life In a Day At Facebook - Home" rel="home">( LIADAF )<sub>Beta</sub> -
+                Demo </a>
+            </h3>
+        </div>
+        <div id="dateWrapper">
+            <ul>
+                <li>
+
+
+                    <label>From: </label>
+                    <input type="text" id="dateFrom" name="dFrom" data-format="MM/DD/YYYY"
+                           placeholder="Select date to start"
+                           class="form-control"/>
+                    <i class="fa fa-calendar"></i>
+                </li>
+                <li>
+
+                    <label>To: </label>
+                    <input type="text" id="dateTo" name="dTo" data-format="MM/DD/YYYY" placeholder="Select date to end"
+                           class="form-control"/>
+                    <i class="fa fa-calendar"></i>
+                </li>
+                <li>
+
+                    <button class="selectDateBtn" id="btnDateSelected">Go</button>
+                    <i id="loadingData" aria-hidden="true"></i>
+                </li>
+            </ul>
+        </div>
+        <div id="lineChartWrapper">
+        </div>
+        <div id="userInfo">
+            Hello Guest !!
+            <a class="logout" href="{{ host }}">Return Home</a>
+        </div>
+    </div>
+</div>
+<script>
+    'use strict';
+    $(document).ready(function () {
+
+        d3.selection.prototype.moveToFront = function () {
+            return this.each(function () {
+                this.parentNode.appendChild(this);
+            });
+        };
+        var chart = lifeInADayAtFacebook()
+                .chartTitle("Life In A Day At Facebook")
+                .svgHeight(window.innerHeight - 60)
+                .svgWidth(window.innerWidth - 50)
+                .halt(true)
+                .forward(false)
+                .forwardSlider(true)
+                .displayDailyStats(true)
+                .userName("Nitish Dhakal");
+
+        function timeFormatter(mydate) {
+            var fullDate = new Date(mydate)
+            return fullDate.getFullYear() + '/' + eval(fullDate.getMonth() + 1) + "/" + fullDate.getDate();
+        }
+
+        //calling api
+        function callingUrlMaker(dateFrom, dateTo) {
+            var url = "{{ host}}{{"PostAndCommentsByCreatedDateDemo/"}}" + timeFormatter(dateFrom) + "/" + timeFormatter(dateTo);
+            return url;
+        }
+
+
+        //define color scale
+        var color = d3.scale.category10();
+        //load the data
+        var mainData = '';
+        var divChart;
+        var defaultEnd = new Date();
+        var defaultStart = new Date(defaultEnd.getTime() - 60 * 60 * 1000 * 24 * 120); //get information before 120 days from current day
+
+        function getChartdata(callingUrl) {
+            d3.json(callingUrl, function (error, data) {
+                if (error) {
+                    console.log("Could not load data");
+                    return;
+                }
+
+                //remove spinner icon
+                $("#loadingData").removeClass('fa fa-spinner fa-spin fa-1x');
+                /*
+                 //get the start time and end time
+                 startDate = d3.min(data, function (d, i) {
+                 return new Date(d.post_created_time);
+                 });
+                 console.log("startDate" + startDate);
+                 endDate = d3.max(data, function (d, i) {
+                 return new Date(d.post_created_time);
+                 });
+                 */
+                startDate = defaultStart;
+                endDate = defaultEnd;
+                console.log(startDate)
+                console.log(endDate)
+                //Attach data on right or left of the timeline alternatively. Put this info in the data object itself
+                var left = true;
+                for (var count = 0; count < data.length; count++) {
+                    if (left) {
+                        data[count]['side'] = "left";
+                        left = false;
+                    }
+                    else {
+                        data[count]['side'] = "right";
+                        left = true;
+                    }
+                    //we have 2 categories for navigation userpost and usercomments so we put that in the data properties
+                    if (data[count].is_post == "1") {
+                        data[count]['color'] = color(1);
+                        data[count]['category'] = "Post";
+                        data[count].created_time = new Date(data[count].created_time);
+                    }
+                    else {
+                        data[count]['color'] = color(10);
+                        data[count]['category'] = "Comment";
+                        data[count].created_time = new Date(data[count].created_time);
+                    }
+
+                }
+//sort the date according to descending order
+                data.sort(function (x, y) {
+                    return d3.descending(x.created_time, y.created_time);
+                })
+
+
+                mainData = data;
+                //update chart with the obtained data
+                chart.data(data);
+                chart.startDate(startDate);
+                chart.endDate(endDate);
+
+
+                //update the datepickers
+                $('#dateFrom').datepicker({
+                    dateFormat: 'yy/mm/dd',
+                    minDate: startDate,
+                    maxDate: new Date()
+                }).datepicker('setDate', timeFormatter(startDate));
+                $('#dateTo').datepicker({
+                    dateFormat: 'yy/mm/dd',
+                    minDate: startDate,
+                    maxDate: new Date()
+                }).datepicker('setDate', timeFormatter(endDate));
+
+                $("#dateFrom").on("change", function () {
+                    var dateSelectedTo = new Date($('#dateTo').val());
+                    if (new Date($(this).val()) >= dateSelectedTo) {
+                        $(this).datepicker('setDate', timeFormatter(defaultStart))
+
+                        return false;
+                    }
+                    defaultStart = new Date($(this).val());
+
+                });
+
+                $("#dateTo").on("change", function () {
+                    var dateSelectedFrom = new Date($('#dateFrom').val());
+                    if (new Date($(this).val()) <= dateSelectedFrom) {
+                        $(this).datepicker('setDate', timeFormatter(defaultEnd))
+                        return false;
+                    }
+
+                    defaultEnd = new Date($(this).val());
+                });
+
+                $('#btnDateSelected').on("click", function () {
+                    //if date from is greater  than date to return false
+                    var dateSelectedFrom = new Date($('#dateFrom').val());
+                    var dateSelectedTo = new Date($('#dateTo').val());
+                    if (dateSelectedTo <= dateSelectedFrom) {
+                        alert("Please select a different date range");
+                        return false;
+                    }
+                    //add spinner icon
+                    $("#loadingData").addClass('fa fa-spinner fa-spin fa-1x');
+                    getChartdata(callingUrlMaker(dateSelectedFrom, dateSelectedTo));
+
+                });
+
+                var selection = d3.select("#chartMainDiv");
+                if (selection.empty()) {
+                    divChart = d3.select("body")
+                            .append('div')
+                            .attr("id", "chartMainDiv")
+                            .call(chart);
+                }
+                else {
+                    chart.reset();
+                }
+
+            });
+
+
+        }
+
+        var endDate = defaultEnd;
+        var startDate = defaultStart;
+        //
+        getChartdata(callingUrlMaker(startDate, endDate));
+    });
+
+    //intro js
+    var tour = new Tour({
+        steps: [
+            {
+                element: '#site-title',
+                content: "Welcome to Life In a day In Facebook (In Short LIADAF).<br> The system has pulled the recent 6 months long data from your profile. Get ready for interactive visualization!!",
+                title: "Welcome to Life in a Day At Facebook",
+                placement: "right"
+            },
+            {
+                element: '#dateWrapper',
+                content: "This is a customized date selection. Here you can select start date and end date for your profile posts.The system then fetches the posts from your profiles in runtime",
+                title: "Select date range",
+                placement: "left"
+            },
+            {
+                element: '#lineChartWrapper',
+                content: "From the date range selected, this line chart provides the instances of the post with white dots. ",
+                title: 'Interaction instances',
+                placement: "left"
+            },
+            {
+                element: '#dailyStatsBarChart',
+                content: "This bar graphs provide the average percentage of time (along different time slots),  you perform interactions in Social Network. <br/>These charts value come from the date range selected above.",
+                title: 'Daily Stats Chart',
+                placement: "left"
+            },
+            {
+                element: '#mainChartPlace',
+                content: "Here you can see all your interactions as they appear according to the date range selected.To see the interactions here you need to play the chart. <br/>This is a vertical moving chart where interactions are shown on left and right of the timeline.The interactions appear in Main chart in detail fashion ",
+                title: 'Main Interaction Chart',
+                placement: "top"
+            },
+            {
+                element: '#navigationChart',
+                content: "This is a Navigation Chart which provides a viewport of the interactions as they appear by when the chart is played using play button.<br/> This also provides panning, zooming and scaling facility. Navigation Chart syncs with the main chart.The interaction appears in the Navigation Chart as a circle.",
+                title: 'Navigation Chart',
+                placement: "top"
+            },
+            {
+                element: '#playPauseButton',
+                content: "This button enables you to play, pause and forward the chart. <br/> The main chart starts moving in vertical direction and navigation chart in horizontal direction. <br/> Main Chart, Navigation Chart and Interaction Instances and Daily Stats are all synced at once when the play button is pushed. ",
+                title: 'Play, Pause and Forward',
+                placement: "top"
+            }
+
+
+        ]
+    });
+
+    // Initialize the tour
+    tour.init();
+
+    // Start the tour
+    tour.start();
+
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+.postMainSection{
+ stroke:green;
+ opacity:0.5;
+ stroke-width:1px;
+}
+.individualPost,
+.commentSection {
+  background-color: #bf1f1f;
+}
+
+.postSection {
+  color: #fff;
+}
+
+.commentStarts {
+  border-top: 1px solid #e5e5e5;
+}
+
+.statsSection {
+  margin: 0 12px;
+  padding-bottom: 5px;
+}
+
+.userName,.commentSenderName {
+  font-weight: bold;
+  fill: #4267b2;
+  font-size: 16px;
+}
+
+p,
+span,
+.postMessage {
+  font-size: 14px;
+}
+
+
+
+.dateDisplay {
+  fill: #999;
+  font-size: 12px;
+}
+
+.commentPersonIcon {
+  width: 10px;
+  height: 10px;
+}
+line.connecting-lines {
+    stroke:green;
+ opacity:0.5;
+ stroke-width:0.5px;
+}
