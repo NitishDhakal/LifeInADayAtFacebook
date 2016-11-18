@@ -1,0 +1,245 @@
+{ 
+    "_id" : ObjectId("581e9c753636a8158c9b738e"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "सपना सुनका हुन्छन् अनी आसुँ सँगइ गासिन्छन् !!!!", 
+    "created_time" : ISODate("2016-11-04T08:11:42.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10154151213075914", 
+    "like_count" : NumberInt(32), 
+    "comment_count" : NumberInt(1)
+}
+{ 
+    "_id" : ObjectId("581e9c753636a8158c9b738f"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "An Escape", 
+    "story" : "Nitish Dhakal added 6 new photos to the album: Boise places people landscape — at Boise Foothills.", 
+    "created_time" : ISODate("2016-10-22T22:48:00.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10154117769930914", 
+    "like_count" : NumberInt(0), 
+    "comment_count" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("581e9c753636a8158c9b7390"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "Don't ask me what I did to make my daughter so bold and poised. Ask me what I did not do. I did not clip her wings .Beautiful :)", 
+    "created_time" : ISODate("2016-10-22T21:50:59.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10154117015035914", 
+    "like_count" : NumberInt(4), 
+    "comment_count" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("581e9c763636a8158c9b7391"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "And the Music of life continues..", 
+    "created_time" : ISODate("2016-10-22T14:44:29.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10154116055310914", 
+    "like_count" : NumberInt(29), 
+    "comment_count" : NumberInt(2)
+}
+{ 
+    "_id" : ObjectId("581e9c763636a8158c9b7392"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "Body Language, Bag and \"Yam between 2 stones\" #NepaleseDiplomacy https://t.co/OdZ4sTN6KN", 
+    "created_time" : ISODate("2016-10-16T17:50:57.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10154098015705914", 
+    "like_count" : NumberInt(5), 
+    "comment_count" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("581e9c763636a8158c9b7393"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "Friday Night Out", 
+    "story" : "Nitish Dhakal at Asana Climbing Gym.", 
+    "created_time" : ISODate("2016-10-15T04:23:43.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10154092838095914", 
+    "like_count" : NumberInt(15), 
+    "comment_count" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("581e9c773636a8158c9b7394"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "आयुर्द्रोणसुते श्रियो दशरथे शत्रुक्षयं राघवे ।\nऐश्वर्य नहुषे गतिश्च पवने मानञ्च दुर्योधने ॥\nशौर्य शान्तनवे बलं हलधरे सत्यञ्च कुन्तीसुते ॥\nजयन्ती मङ्गला काली भद्रकाली कपालिनी ।\nदुर्गा क्षमा शिवा धात्री स्वाहा स्वधा नमोऽस्तु ते ॥\nजय त्वं देवि चामुण्डे जय भूतापहारिणि ।\nजय सर्वगते देवि कालरात्रि नमोऽस्तु ते ॥\nब्रह्मा करोतु दीर्घायुर्विष्णु: करोतु सम्पद: ।\nहरो हरतु पापानि गात्रं रक्षतु चण्डिका ॥\nआवाहनं न जानामि न जानामि समर्पूणम् ।\nपूजां चैव न जानामि क्षम्यतां परमेश्र्वरि ॥\n\nHappy Dashain to every one. Have a peaceful year ahead.I miss you all.", 
+    "story" : "Nitish Dhakal with Nishma Dhakal and 17 others.", 
+    "created_time" : ISODate("2016-10-11T02:38:53.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10154080449550914", 
+    "like_count" : NumberInt(141), 
+    "comment_count" : NumberInt(8)
+}
+{ 
+    "_id" : ObjectId("581e9c773636a8158c9b7395"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "Lovin it :-)", 
+    "story" : "Nitish Dhakal at Guidos Original N.Y. Style Pizzeria.", 
+    "created_time" : ISODate("2016-10-10T23:42:34.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10154080085585914", 
+    "like_count" : NumberInt(15), 
+    "comment_count" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("581e9c773636a8158c9b7396"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "To all the daughters,\n\n...And because you are women people will force their thinking, their boundaries on you.They will tell you how to dress, how to behave, who you can meet and where you can go.Don't live in the shadows of people's judgement. Make your own choices in the light of your own wisdom.Don't let anyone make you believe that the length of your skirt is a measure of your character.Don't let anyone's opinion of who you should be friends with, dictate who you will be friends with.Don't get married for any other reason other than you want to get married.\n\nPeople will talk. They shall say some terrible things. But that doesn't mean you have to listen to everyone. At the end of the day, you are the only one who will face the consequences of your actions, so don't let other people make your decisions for you. \n\nThis may be a difficult, difficult world to be a woman. But I believe that it is women like you that will change that. It may not be easy, setting your own boundaries, making your own choices, rising above people 's judgement. But YOU !...you can set an example for women everywhere....\n\n-- Excerpts from the letter By Amitabh Bachchan to his Granddaughters.", 
+    "created_time" : ISODate("2016-09-07T04:03:00.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10153992349045914", 
+    "like_count" : NumberInt(32), 
+    "comment_count" : NumberInt(2)
+}
+{ 
+    "_id" : ObjectId("581ecd7f3636a8158c9b73a4"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "", 
+    "story" : "Nitish Dhakal updated his profile picture.", 
+    "created_time" : ISODate("2016-09-02T05:52:27.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10153637415925914", 
+    "like_count" : NumberInt(190), 
+    "comment_count" : NumberInt(9)
+}
+{ 
+    "_id" : ObjectId("581ecd7f3636a8158c9b73a5"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "Life is not a race, Enjoy your journey. Boise in Time Lapse. Music by Dexter Britain (The Time to Run)", 
+    "story" : "", 
+    "created_time" : ISODate("2016-08-22T07:10:53.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10153950686505914", 
+    "like_count" : NumberInt(45), 
+    "comment_count" : NumberInt(2)
+}
+{ 
+    "_id" : ObjectId("581ecd7f3636a8158c9b73a6"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "Time has changed and so are the stories but the memories are intact.One evening at Baglamukhi Mandir Patan Nepal taken in 2012 #MeAndMyCamera Happy Photography day.", 
+    "story" : "Nitish Dhakal shared his photo.", 
+    "created_time" : ISODate("2016-08-19T23:14:53.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10153944955975914", 
+    "like_count" : NumberInt(11), 
+    "comment_count" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("581ecd803636a8158c9b73a7"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "Earthquake, Madhesh Andolan and blockade and  you see banks net profit as high as ever. https://t.co/K2JX6iN46h\n#NRBWhatsHappening", 
+    "story" : "", 
+    "created_time" : ISODate("2016-08-17T06:12:23.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10153938353760914", 
+    "like_count" : NumberInt(11), 
+    "comment_count" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("581ecd803636a8158c9b73a8"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "An Escape", 
+    "story" : "Nitish Dhakal added 9 new photos to the album: Boise places people landscape.", 
+    "created_time" : ISODate("2016-08-06T22:55:47.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10153913557550914", 
+    "like_count" : NumberInt(126), 
+    "comment_count" : NumberInt(3)
+}
+{ 
+    "_id" : ObjectId("581ecd803636a8158c9b73a9"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "", 
+    "story" : "Nitish Dhakal shared BBC News's video.", 
+    "created_time" : ISODate("2016-08-04T18:05:48.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10153908182970914", 
+    "like_count" : NumberInt(3), 
+    "comment_count" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("581ed90c3636a8158c9b73b8"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "An Escape", 
+    "story" : "Nitish Dhakal added 6 new photos to the album: Boise places people landscape — at Boise Whitewater Park.", 
+    "created_time" : ISODate("2016-07-25T05:49:57.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10153883000815914", 
+    "like_count" : NumberInt(126), 
+    "comment_count" : NumberInt(3)
+}
+{ 
+    "_id" : ObjectId("581ed90c3636a8158c9b73b9"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "There is nothing more beautiful than nature itself", 
+    "story" : "Nitish Dhakal at Boise Whitewater Park.", 
+    "created_time" : ISODate("2016-07-25T05:49:57.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10153883000860914", 
+    "like_count" : NumberInt(15), 
+    "comment_count" : NumberInt(2)
+}
+{ 
+    "_id" : ObjectId("581ed90c3636a8158c9b73ba"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "", 
+    "story" : "Nitish Dhakal updated his profile picture.", 
+    "created_time" : ISODate("2016-07-23T07:50:35.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10153878300210914", 
+    "like_count" : NumberInt(108), 
+    "comment_count" : NumberInt(3)
+}
+{ 
+    "_id" : ObjectId("581ed90d3636a8158c9b73bb"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "Nishma Dhakal Aashma Rimal oho hami pani kura garum na timiharka  idol sanga :)", 
+    "story" : "Nitish Dhakal added 2 new photos — with Nishma Dhakal and 2 others.", 
+    "created_time" : ISODate("2016-07-21T15:57:13.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10153874546825914", 
+    "like_count" : NumberInt(26), 
+    "comment_count" : NumberInt(5)
+}
+{ 
+    "_id" : ObjectId("581ed90d3636a8158c9b73bc"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "Matt Demon at Village at Meridian folks.", 
+    "story" : "", 
+    "created_time" : ISODate("2016-07-21T15:46:44.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10153874531095914", 
+    "like_count" : NumberInt(1), 
+    "comment_count" : NumberInt(1)
+}
+{ 
+    "_id" : ObjectId("581ed90d3636a8158c9b73bd"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "PM should always be apolitical. S/he should focus in proper governance. Government should not run for elections instead should be run for basic demands and expectations of the people .Election is merely a biproduct. This is democracy. Winning and losing is a part if it. Khai katti choti Delhi bhet ghat ma jada ni yo kura chai kina sikera aunnan bhanya.", 
+    "story" : "", 
+    "created_time" : ISODate("2016-07-20T02:10:34.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10153870753895914", 
+    "like_count" : NumberInt(3), 
+    "comment_count" : NumberInt(2)
+}
+{ 
+    "_id" : ObjectId("581ed90d3636a8158c9b73be"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "Developed in 1928 saw this in 2016. Quite an interesting instrument.", 
+    "story" : "", 
+    "created_time" : ISODate("2016-07-12T20:15:43.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10153853360675914", 
+    "like_count" : NumberInt(4), 
+    "comment_count" : NumberInt(1)
+}
+{ 
+    "_id" : ObjectId("581ed90e3636a8158c9b73bf"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "just wow..", 
+    "story" : "", 
+    "created_time" : ISODate("2016-07-11T20:15:41.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10153851049095914", 
+    "like_count" : NumberInt(5), 
+    "comment_count" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("581ed90e3636a8158c9b73c0"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "An Escape", 
+    "story" : "Nitish Dhakal added 8 new photos to the album: Boise places people landscape.", 
+    "created_time" : ISODate("2016-07-05T00:38:00.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10153836200855914", 
+    "like_count" : NumberInt(0), 
+    "comment_count" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5820de6b3636a8158c9b73cf"), 
+    "user_id" : ObjectId("581e9c723636a8158c9b738d"), 
+    "message" : "Bobby So I like this song already.\n\nI'm sitting here in the boring room\nIt's just another rainy Sunday afternoon\nI'm wasting my time\nI got nothing to do\nI'm hanging around\nI'm waiting for you\nBut nothing ever happens and I wonder..", 
+    "story" : "Nitish Dhakal with Ujwal Acharya.", 
+    "created_time" : ISODate("2016-11-06T01:24:54.000+0000"), 
+    "app_specific_post_id" : "10154029964775914_10154156061215914", 
+    "like_count" : NumberInt(8), 
+    "comment_count" : NumberInt(3)
+}

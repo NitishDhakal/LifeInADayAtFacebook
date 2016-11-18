@@ -1,0 +1,405 @@
+{ 
+    "_id" : ObjectId("581e9c773636a8158c9b7397"), 
+    "app_specific_post_id" : "10154029964775914_10154151213075914", 
+    "app_specific_comment_id" : "10154151213075914_10154151938725914", 
+    "message" : "Nikkai aasu aye jasatai cha ni", 
+    "created_time" : ISODate("2016-11-04T15:05:10.000+0000"), 
+    "sender_name" : "Niraj Pokhrel", 
+    "sender_id" : NumberLong(10154648013426171)
+}
+{ 
+    "_id" : ObjectId("581e9c783636a8158c9b7398"), 
+    "app_specific_post_id" : "10154029964775914_10154116055310914", 
+    "app_specific_comment_id" : "10154116055310914_10154116059630914", 
+    "message" : "khub tahhacha life ko barema hahahaha", 
+    "created_time" : ISODate("2016-10-22T14:47:38.000+0000"), 
+    "sender_name" : "Nishma Dhakal", 
+    "sender_id" : NumberLong(1526302830728536)
+}
+{ 
+    "_id" : ObjectId("581e9c783636a8158c9b7399"), 
+    "app_specific_post_id" : "10154029964775914_10154116055310914", 
+    "app_specific_comment_id" : "10154116055310914_10154116060325914", 
+    "message" : "akhamm akhamm... k ho estooo .....:) :)", 
+    "created_time" : ISODate("2016-10-22T14:47:57.000+0000"), 
+    "sender_name" : "Monika Shrestha", 
+    "sender_id" : NumberLong(1239917572697144)
+}
+{ 
+    "_id" : ObjectId("581e9c783636a8158c9b739a"), 
+    "app_specific_post_id" : "10154029964775914_10154080449550914", 
+    "app_specific_comment_id" : "10154080449550914_10154080462365914", 
+    "message" : "Happy dashain big bro... we miss yu too!!", 
+    "created_time" : ISODate("2016-10-11T02:44:12.000+0000"), 
+    "sender_name" : "Osshin Shrma", 
+    "sender_id" : NumberLong(1386960754665076)
+}
+{ 
+    "_id" : ObjectId("581e9c783636a8158c9b739b"), 
+    "app_specific_post_id" : "10154029964775914_10154080449550914", 
+    "app_specific_comment_id" : "10154080449550914_10154080479045914", 
+    "message" : "all femeli,s picture nice. Happy dashain bhanjaa", 
+    "created_time" : ISODate("2016-10-11T02:49:48.000+0000"), 
+    "sender_name" : "Rohit Sharma", 
+    "sender_id" : NumberLong(1695504610766271)
+}
+{ 
+    "_id" : ObjectId("581e9c783636a8158c9b739c"), 
+    "app_specific_post_id" : "10154029964775914_10154080449550914", 
+    "app_specific_comment_id" : "10154080449550914_10154080494995914", 
+    "message" : "HAPPY DASHAIN BRO....🍻🍻🍻🍻", 
+    "created_time" : ISODate("2016-10-11T02:53:54.000+0000"), 
+    "sender_name" : "Pranav Reüs", 
+    "sender_id" : NumberLong(552588181604846)
+}
+{ 
+    "_id" : ObjectId("581e9c783636a8158c9b739d"), 
+    "app_specific_post_id" : "10154029964775914_10154080449550914", 
+    "app_specific_comment_id" : "10154080449550914_10154080523260914", 
+    "message" : "Happy dashain sabai Jana lai 🙂", 
+    "created_time" : ISODate("2016-10-11T03:02:22.000+0000"), 
+    "sender_name" : "Asmit Baral", 
+    "sender_id" : NumberLong(1593858520639653)
+}
+{ 
+    "_id" : ObjectId("581e9c783636a8158c9b739e"), 
+    "app_specific_post_id" : "10154029964775914_10154080449550914", 
+    "app_specific_comment_id" : "10154080449550914_10154080632400914", 
+    "message" : "विजया दशमी २०७३ काे उपलक्ष्यमा हार्दिक मंगलमय शुभकामना !", 
+    "created_time" : ISODate("2016-10-11T04:11:35.000+0000"), 
+    "sender_name" : "Dipak Pokharel", 
+    "sender_id" : NumberLong(10207527205242634)
+}
+{ 
+    "_id" : ObjectId("581e9c783636a8158c9b739f"), 
+    "app_specific_post_id" : "10154029964775914_10154080449550914", 
+    "app_specific_comment_id" : "10154080449550914_10154080635865914", 
+    "message" : "❤️❤️❤️❤️❤️", 
+    "created_time" : ISODate("2016-10-11T04:14:28.000+0000"), 
+    "sender_name" : "Nishma Dhakal", 
+    "sender_id" : NumberLong(1526302830728536)
+}
+{ 
+    "_id" : ObjectId("581e9c783636a8158c9b73a0"), 
+    "app_specific_post_id" : "10154029964775914_10154080449550914", 
+    "app_specific_comment_id" : "10154080449550914_10154080720970914", 
+    "message" : "Happy dashain dada", 
+    "created_time" : ISODate("2016-10-11T05:13:12.000+0000"), 
+    "sender_name" : "Aanchal Baral", 
+    "sender_id" : NumberLong(365780943764666)
+}
+{ 
+    "_id" : ObjectId("581e9c783636a8158c9b73a1"), 
+    "app_specific_post_id" : "10154029964775914_10154080449550914", 
+    "app_specific_comment_id" : "10154080449550914_10154081559930914", 
+    "message" : "Happy dahsi sir", 
+    "created_time" : ISODate("2016-10-11T13:20:49.000+0000"), 
+    "sender_name" : "Radhekrishna Yadav", 
+    "sender_id" : NumberLong(951855918291799)
+}
+{ 
+    "_id" : ObjectId("581e9c783636a8158c9b73a2"), 
+    "app_specific_post_id" : "10154029964775914_10153992349045914", 
+    "app_specific_comment_id" : "10153992349045914_10153992364875914", 
+    "message" : "I saw this on the news earlier. But like Mr. Bachchan says you can set an example. Anything is possible if you put your mind to it😀😀😀😀", 
+    "created_time" : ISODate("2016-09-07T04:16:32.000+0000"), 
+    "sender_name" : "Parika Karki Das", 
+    "sender_id" : NumberLong(10210553839100869)
+}
+{ 
+    "_id" : ObjectId("581e9c783636a8158c9b73a3"), 
+    "app_specific_post_id" : "10154029964775914_10153992349045914", 
+    "app_specific_comment_id" : "10153992349045914_10153996138390914", 
+    "message" : "Mr. Bachchan must have attended American Schools.  :)", 
+    "created_time" : ISODate("2016-09-08T15:46:28.000+0000"), 
+    "sender_name" : "Jim Hackett", 
+    "sender_id" : NumberLong(10210663643571382)
+}
+{ 
+    "_id" : ObjectId("581ecd803636a8158c9b73aa"), 
+    "app_specific_post_id" : "10154029964775914_10153637415925914", 
+    "app_specific_comment_id" : "10153637415925914_10153639396840914", 
+    "message" : "You got a monster beside bro... 😂😂", 
+    "created_time" : ISODate("2016-04-03T05:22:20.000+0000"), 
+    "sender_name" : "Suraj Gautam", 
+    "sender_id" : NumberLong(10209554931005421)
+}
+{ 
+    "_id" : ObjectId("581ecd803636a8158c9b73ab"), 
+    "app_specific_post_id" : "10154029964775914_10153637415925914", 
+    "app_specific_comment_id" : "10153637415925914_10153979367090914", 
+    "message" : "Timile yehee thulo dhyangro kineu ki kya ho???", 
+    "created_time" : ISODate("2016-09-02T06:26:00.000+0000"), 
+    "sender_name" : "Rakesh Acharya", 
+    "sender_id" : NumberLong(1330047040353653)
+}
+{ 
+    "_id" : ObjectId("581ecd803636a8158c9b73ac"), 
+    "app_specific_post_id" : "10154029964775914_10153637415925914", 
+    "app_specific_comment_id" : "10153637415925914_10153979382200914", 
+    "message" : "nice!", 
+    "created_time" : ISODate("2016-09-02T06:41:45.000+0000"), 
+    "sender_name" : "Bobby So", 
+    "sender_id" : NumberLong(10154502576343186)
+}
+{ 
+    "_id" : ObjectId("581ecd803636a8158c9b73ad"), 
+    "app_specific_post_id" : "10154029964775914_10153637415925914", 
+    "app_specific_comment_id" : "10153637415925914_10153980066480914", 
+    "message" : "its a disaster da...nepal leunu paryo yeslie :D", 
+    "created_time" : ISODate("2016-09-02T13:48:24.000+0000"), 
+    "sender_name" : "Abikal Karki", 
+    "sender_id" : NumberLong(1153614384713915)
+}
+{ 
+    "_id" : ObjectId("581ecd803636a8158c9b73ae"), 
+    "app_specific_post_id" : "10154029964775914_10153637415925914", 
+    "app_specific_comment_id" : "10153637415925914_10153980169145914", 
+    "message" : "Woohoo! Did you buy a car?", 
+    "created_time" : ISODate("2016-09-02T14:38:21.000+0000"), 
+    "sender_name" : "Kristen Binda", 
+    "sender_id" : NumberLong(10211227575231721)
+}
+{ 
+    "_id" : ObjectId("581ecd803636a8158c9b73af"), 
+    "app_specific_post_id" : "10154029964775914_10153637415925914", 
+    "app_specific_comment_id" : "10153637415925914_10153980206840914", 
+    "message" : "Cool, Dude!", 
+    "created_time" : ISODate("2016-09-02T14:58:22.000+0000"), 
+    "sender_name" : "Balabhadra Dasa", 
+    "sender_id" : NumberLong(1025048437617377)
+}
+{ 
+    "_id" : ObjectId("581ecd803636a8158c9b73b0"), 
+    "app_specific_post_id" : "10154029964775914_10153637415925914", 
+    "app_specific_comment_id" : "10153637415925914_10153980396465914", 
+    "message" : "that truck, that street! memory lane.", 
+    "created_time" : ISODate("2016-09-02T16:42:59.000+0000"), 
+    "sender_name" : "Amrta Devi Dasi", 
+    "sender_id" : NumberLong(1405613926134725)
+}
+{ 
+    "_id" : ObjectId("581ecd803636a8158c9b73b1"), 
+    "app_specific_post_id" : "10154029964775914_10153637415925914", 
+    "app_specific_comment_id" : "10153637415925914_10153980448700914", 
+    "message" : "Looking handsome Nitish Dhakal", 
+    "created_time" : ISODate("2016-09-02T17:10:01.000+0000"), 
+    "sender_name" : "Sengson Haang Rai", 
+    "sender_id" : NumberLong(1298665726823973)
+}
+{ 
+    "_id" : ObjectId("581ecd803636a8158c9b73b2"), 
+    "app_specific_post_id" : "10154029964775914_10153637415925914", 
+    "app_specific_comment_id" : "10153637415925914_10153983053480914", 
+    "message" : "Bro ko killer looks 😎", 
+    "created_time" : ISODate("2016-09-03T17:05:07.000+0000"), 
+    "sender_name" : "Ujwal Karki", 
+    "sender_id" : NumberLong(10207307174305352)
+}
+{ 
+    "_id" : ObjectId("581ecd813636a8158c9b73b3"), 
+    "app_specific_post_id" : "10154029964775914_10153950686505914", 
+    "app_specific_comment_id" : "10153950686505914_10153950732110914", 
+    "message" : "Awesome dai ! sky chai nikai raamro !", 
+    "created_time" : ISODate("2016-08-22T07:54:07.000+0000"), 
+    "sender_name" : "Programmer Sabin", 
+    "sender_id" : NumberLong(1754791484775626)
+}
+{ 
+    "_id" : ObjectId("581ecd813636a8158c9b73b4"), 
+    "app_specific_post_id" : "10154029964775914_10153950686505914", 
+    "app_specific_comment_id" : "10153950686505914_10153951344995914", 
+    "message" : "Well done", 
+    "created_time" : ISODate("2016-08-22T13:52:20.000+0000"), 
+    "sender_name" : "Amrta Devi Dasi", 
+    "sender_id" : NumberLong(1405613926134725)
+}
+{ 
+    "_id" : ObjectId("581ecd813636a8158c9b73b5"), 
+    "app_specific_post_id" : "10154029964775914_10153913557550914", 
+    "app_specific_comment_id" : "10153715778080914_10153716343340914", 
+    "message" : "bro afno tag hannu parena? @copyright #the_greatest_of_the_great_NITISH bhanera?", 
+    "created_time" : ISODate("2016-05-10T15:17:26.000+0000"), 
+    "sender_name" : "Ashish Sharma", 
+    "sender_id" : NumberLong(10207717221505104)
+}
+{ 
+    "_id" : ObjectId("581ecd813636a8158c9b73b6"), 
+    "app_specific_post_id" : "10154029964775914_10153913557550914", 
+    "app_specific_comment_id" : "10153715778080914_10153716491505914", 
+    "message" : "Nice photography bro. Really good.", 
+    "created_time" : ISODate("2016-05-10T16:57:15.000+0000"), 
+    "sender_name" : "Srisarguru Sridhar", 
+    "sender_id" : NumberLong(1213558968685632)
+}
+{ 
+    "_id" : ObjectId("581ecd813636a8158c9b73b7"), 
+    "app_specific_post_id" : "10154029964775914_10153913557550914", 
+    "app_specific_comment_id" : "10153715778080914_10153774128290914", 
+    "message" : "Wonderful captures!", 
+    "created_time" : ISODate("2016-06-07T15:12:12.000+0000"), 
+    "sender_name" : "Hasini Delvinne", 
+    "sender_id" : NumberLong(10208593101879730)
+}
+{ 
+    "_id" : ObjectId("581ed90e3636a8158c9b73c1"), 
+    "app_specific_post_id" : "10154029964775914_10153883000860914", 
+    "app_specific_comment_id" : "10153883000860914_10153883184570914", 
+    "message" : "Where exactly is this Nitish?", 
+    "created_time" : ISODate("2016-07-25T08:00:20.000+0000"), 
+    "sender_name" : "Hasini Delvinne", 
+    "sender_id" : NumberLong(10208593101879730)
+}
+{ 
+    "_id" : ObjectId("581ed90e3636a8158c9b73c2"), 
+    "app_specific_post_id" : "10154029964775914_10153883000860914", 
+    "app_specific_comment_id" : "10153883000860914_10153884016150914", 
+    "message" : "This is in fish center near Boise river park Hasini", 
+    "created_time" : ISODate("2016-07-25T16:35:35.000+0000"), 
+    "sender_name" : "Nitish Dhakal", 
+    "sender_id" : NumberLong(10154029964775914)
+}
+{ 
+    "_id" : ObjectId("581ed90e3636a8158c9b73c3"), 
+    "app_specific_post_id" : "10154029964775914_10153878300210914", 
+    "app_specific_comment_id" : "10153878300210914_10153878428095914", 
+    "message" : "oho 😍😍😍💗💗", 
+    "created_time" : ISODate("2016-07-23T09:54:24.000+0000"), 
+    "sender_name" : "Aasma Rimal", 
+    "sender_id" : NumberLong(1843249802564643)
+}
+{ 
+    "_id" : ObjectId("581ed90e3636a8158c9b73c4"), 
+    "app_specific_post_id" : "10154029964775914_10153878300210914", 
+    "app_specific_comment_id" : "10153878300210914_10153878438145914", 
+    "message" : "😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍😍", 
+    "created_time" : ISODate("2016-07-23T10:05:20.000+0000"), 
+    "sender_name" : "Nishma Dhakal", 
+    "sender_id" : NumberLong(1526302830728536)
+}
+{ 
+    "_id" : ObjectId("581ed90e3636a8158c9b73c5"), 
+    "app_specific_post_id" : "10154029964775914_10153878300210914", 
+    "app_specific_comment_id" : "10153878300210914_10153880723120914", 
+    "message" : "Beautiful soul in beautiful body :)", 
+    "created_time" : ISODate("2016-07-24T08:16:28.000+0000"), 
+    "sender_name" : "Agnieszka Iks", 
+    "sender_id" : NumberLong(332000593820635)
+}
+{ 
+    "_id" : ObjectId("581ed90e3636a8158c9b73c6"), 
+    "app_specific_post_id" : "10154029964775914_10153874546825914", 
+    "app_specific_comment_id" : "10153874546825914_10153874649755914", 
+    "message" : "sachi ho ra vaneko , la bhetaidinchu kunai din .", 
+    "created_time" : ISODate("2016-07-21T17:04:54.000+0000"), 
+    "sender_name" : "Nishma Dhakal", 
+    "sender_id" : NumberLong(1526302830728536)
+}
+{ 
+    "_id" : ObjectId("581ed90e3636a8158c9b73c7"), 
+    "app_specific_post_id" : "10154029964775914_10153874546825914", 
+    "app_specific_comment_id" : "10153874546825914_10153875789965914", 
+    "message" : "Ma pani line ma xu hai!!! Nitish Dada ra malai no vetaideu na... T", 
+    "created_time" : ISODate("2016-07-22T04:30:06.000+0000"), 
+    "sender_name" : "Sushiksha Dhakal", 
+    "sender_id" : NumberLong(693585360798247)
+}
+{ 
+    "_id" : ObjectId("581ed90e3636a8158c9b73c8"), 
+    "app_specific_post_id" : "10154029964775914_10153874546825914", 
+    "app_specific_comment_id" : "10153874546825914_10153875791125914", 
+    "message" : "Kollywood KO superstars KO fan haru...", 
+    "created_time" : ISODate("2016-07-22T04:30:41.000+0000"), 
+    "sender_name" : "Sushiksha Dhakal", 
+    "sender_id" : NumberLong(693585360798247)
+}
+{ 
+    "_id" : ObjectId("581ed90e3636a8158c9b73c9"), 
+    "app_specific_post_id" : "10154029964775914_10153874546825914", 
+    "app_specific_comment_id" : "10153874546825914_10153875852735914", 
+    "message" : "Nishma Dhakal priyanka karki 😜 saugat malla  kahile veteu 😜 malaini vetaideu na 😄", 
+    "created_time" : ISODate("2016-07-22T05:09:54.000+0000"), 
+    "sender_name" : "Subi Kc", 
+    "sender_id" : NumberLong(1263851610325839)
+}
+{ 
+    "_id" : ObjectId("581ed90e3636a8158c9b73ca"), 
+    "app_specific_post_id" : "10154029964775914_10153874546825914", 
+    "app_specific_comment_id" : "10153874546825914_10153876286675914", 
+    "message" : "aba bollywood ka chhainan Nepal ma so kolkywood ko superstar ko fan ni Sushiksha di and Nitish da", 
+    "created_time" : ISODate("2016-07-22T11:02:23.000+0000"), 
+    "sender_name" : "Aasma Rimal", 
+    "sender_id" : NumberLong(1843249802564643)
+}
+{ 
+    "_id" : ObjectId("581ed90e3636a8158c9b73cb"), 
+    "app_specific_post_id" : "10154029964775914_10153874531095914", 
+    "app_specific_comment_id" : "10153874531095914_10153878378035914", 
+    "message" : "OMG! Did you go Nitish ?", 
+    "created_time" : ISODate("2016-07-23T09:04:45.000+0000"), 
+    "sender_name" : "Harish Arelly", 
+    "sender_id" : NumberLong(1167476406631858)
+}
+{ 
+    "_id" : ObjectId("581ed90f3636a8158c9b73cc"), 
+    "app_specific_post_id" : "10154029964775914_10153870753895914", 
+    "app_specific_comment_id" : "10153870753895914_10153870989425914", 
+    "message" : "chimeki ghar ma dhukera khana gako kukurle kei sikera aaula ra bro?", 
+    "created_time" : ISODate("2016-07-20T04:23:48.000+0000"), 
+    "sender_name" : "Ashish Sharma", 
+    "sender_id" : NumberLong(10207717221505104)
+}
+{ 
+    "_id" : ObjectId("581ed90f3636a8158c9b73cd"), 
+    "app_specific_post_id" : "10154029964775914_10153870753895914", 
+    "app_specific_comment_id" : "10153870753895914_10153871096180914", 
+    "message" : "Gadee kineu?", 
+    "created_time" : ISODate("2016-07-20T05:41:55.000+0000"), 
+    "sender_name" : "Rakesh Acharya", 
+    "sender_id" : NumberLong(1330047040353653)
+}
+{ 
+    "_id" : ObjectId("581ed90f3636a8158c9b73ce"), 
+    "app_specific_post_id" : "10154029964775914_10153853360675914", 
+    "app_specific_comment_id" : "10153853360675914_10153854565695914", 
+    "message" : "how it work", 
+    "created_time" : ISODate("2016-07-13T08:42:58.000+0000"), 
+    "sender_name" : "Bobby So", 
+    "sender_id" : NumberLong(10154502576343186)
+}
+{ 
+    "_id" : ObjectId("5820de6b3636a8158c9b73d0"), 
+    "app_specific_post_id" : "10154029964775914_10154156061215914", 
+    "app_specific_comment_id" : "10154156061215914_10154156067135914", 
+    "message" : "It's good, right?", 
+    "created_time" : ISODate("2016-11-06T01:29:12.000+0000"), 
+    "sender_name" : "Bobby So", 
+    "sender_id" : NumberLong(10154502576343186)
+}
+{ 
+    "_id" : ObjectId("5820de6b3636a8158c9b73d1"), 
+    "app_specific_post_id" : "10154029964775914_10154156061215914", 
+    "app_specific_comment_id" : "10154156061215914_10154156083670914", 
+    "message" : "i think there was another one as good as this one,,what was it ?", 
+    "created_time" : ISODate("2016-11-06T01:39:03.000+0000"), 
+    "sender_name" : "Ujwal Acharya", 
+    "sender_id" : NumberLong(1487841534565741)
+}
+{ 
+    "_id" : ObjectId("5820de6b3636a8158c9b73d2"), 
+    "app_specific_post_id" : "10154029964775914_10154156061215914", 
+    "app_specific_comment_id" : "10154156061215914_10154156112100914", 
+    "message" : "hey it turns out that they are celtic punk no wonder they sound irish (Y) https://www.youtube.com/watch?v=x-64CaD8GXw", 
+    "created_time" : ISODate("2016-11-06T01:50:51.000+0000"), 
+    "sender_name" : "Ujwal Acharya", 
+    "sender_id" : NumberLong(1487841534565741)
+}
+{ 
+    "_id" : ObjectId("582135e63636a8156c57ceff"), 
+    "app_specific_post_id" : "10154029964775914_10154156061215914", 
+    "app_specific_comment_id" : "10154156061215914_10154161645060914", 
+    "message" : "THis is a  good  song and I like  it. thank  you  BObby.", 
+    "created_time" : ISODate("2016-11-08T01:20:50.000+0000"), 
+    "sender_name" : "Wai Kuen  So", 
+    "sender_id" : NumberLong(2182541825304549)
+}

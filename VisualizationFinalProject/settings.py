@@ -85,11 +85,11 @@ WSGI_APPLICATION = 'VisualizationFinalProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.dummy',
-        'NAME': 'heroku_hcfcwbgs',
-        'USER': 'heroku_hcfcwbgs',  # The following settings are not used with sqlite3
-        'PASSWORD': '',
-        'HOST': 'ds041546.mlab.com',      # Empty for localhost through domain sockets  or '127.0.0.1' for localhost through TCP.
-        'PORT': '41546',      # Set to empty string for default.
+        'NAME': 'heroku_t5wp6bkm',
+        'USER': 'nitish',  # The following settings are not used with sqlite3
+        'PASSWORD': 'db1234',
+        'HOST': 'ds157987.mlab.com',      # Empty for localhost through domain sockets  or '127.0.0.1' for localhost through TCP.
+        'PORT': '57987',      # Set to empty string for default.
     }
 }
 
@@ -98,7 +98,7 @@ AUTHENTICATION_BACKENDS = (
     'mongoengine.django.auth.MongoEngineBackend',
     'django.contrib.auth.backends.ModelBackend',
  )
-MONGO_DATABASE_NAME = 'LIADIF'
+MONGO_DATABASE_NAME = 'heroku_t5wp6bkm'
 
 connect(MONGO_DATABASE_NAME)
 
