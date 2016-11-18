@@ -1,6 +1,8 @@
 from django.conf.urls import url, include
 from LifeInADayAtFacebook import views
 from django.conf import settings
+from django.conf.urls.static import static
+
 
 
 urlpatterns = [
@@ -15,12 +17,10 @@ urlpatterns = [
 	url(r'^PostAndCommentsByCreatedDateDemo/(?P<year_from>\d{4})/(?P<month_from>\d{1,2})/(?P<day_from>\d{1,2})/(?P<year_to>\d{4})/(?P<month_to>\d{1,2})/(?P<day_to>\d{1,2})$', views.post_and_comments_by_created_date_demo, name='postandcommentapidemo'),
 
 
-]
+]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
-#if not settings.DEBUG:
-urlpatterns += patterns('',
-        (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
-    )
+
+
 
 
 
