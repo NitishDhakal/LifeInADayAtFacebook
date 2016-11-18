@@ -42,7 +42,7 @@ INSTALLED_APPS = [
 ]
 #SOCIAL_AUTH_STORAGE = 'social.apps.django_app.me.models.DjangoStorage'
 
-MIDDLEWARE = [
+MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
