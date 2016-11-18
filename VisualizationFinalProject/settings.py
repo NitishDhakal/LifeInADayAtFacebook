@@ -85,11 +85,11 @@ WSGI_APPLICATION = 'VisualizationFinalProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.dummy',
-        'NAME': '',
-        'USER': '',  # The following settings are not used with sqlite3
+        'NAME': 'heroku_hcfcwbgs',
+        'USER': 'heroku_hcfcwbgs',  # The following settings are not used with sqlite3
         'PASSWORD': '',
-        'HOST': '',      # Empty for localhost through domain sockets  or '127.0.0.1' for localhost through TCP.
-        'PORT': '',      # Set to empty string for default.
+        'HOST': 'ds041546.mlab.com',      # Empty for localhost through domain sockets  or '127.0.0.1' for localhost through TCP.
+        'PORT': '41546',      # Set to empty string for default.
     }
 }
 
