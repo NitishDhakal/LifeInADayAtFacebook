@@ -1,6 +1,6 @@
 from django.conf.urls import url, include
 from LifeInADayAtFacebook import views
-
+from django.conf import settings
 
 
 urlpatterns = [
