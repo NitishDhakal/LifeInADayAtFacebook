@@ -17,6 +17,11 @@ url(r'^PostAndCommentsByCreatedDateDemo/(?P<year_from>\d{4})/(?P<month_from>\d{1
 
 ]
 
+if not settings.DEBUG:
+    urlpatterns += patterns('',
+        (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
+    )
+
 
 
 
