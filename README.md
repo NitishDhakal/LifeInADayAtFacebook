@@ -11,4 +11,4 @@ Our main objectives are:
 2.      To find out the average latency in interactions done in user Facebook or Twitter page.
 3.      To view the activities in Facebook or Twitter in a moving timeline at our own speed.
 
-Amazon AWS instance : http://35.161.146.25:8000/LifeInADayAtFacebook/demoss
+Amazon AWS instance : http://35.161.146.25:8000/LifeInADayAtFacebook/demo
