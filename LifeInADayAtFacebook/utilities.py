@@ -209,8 +209,7 @@ def get_post_data_by_url_recursively_by_graph_api(access_token, url, app_specifi
                             stry=message['story']
                         else:
                             stry=''
-                        print  message['id']
-                        print stry
+
                         post_data = {
                             "message": msg,
                             "story": stry,

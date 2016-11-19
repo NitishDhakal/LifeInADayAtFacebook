@@ -79,7 +79,7 @@ function lifeInADayAtFacebook() {
         latencyBetweenPost,
         postCount = 0,
         lineChartFxn,
-        toolTipLatencyText = "Latency between the interactions shows the average time period between any two ineractions. ",
+        toolTipLatencyText = "Latency between the interactions shows the average time period between any two interactions. ",
         barChartColorRange = ["#062f4f", "#54afdb", "#33FFBD", "#f58632", "#f9be02", "#8c8d8f"];
 
 
@@ -655,6 +655,7 @@ function lifeInADayAtFacebook() {
 
         var restartFxn = function () {
             d3.select("#pause").remove();
+             d3.select("#play").remove();
             restart = true;
             play();
 
@@ -1829,12 +1830,13 @@ function lifeInADayAtFacebook() {
 
         resetChart = function () {
 
-            halt = true;
+
             if (displayDailyStats) {
                 getBarChartOverView();
                 dailyStats.updateRectangles(dailyTimeStatsPercentData);
                 dateBucket = [];
             }
+            halt = true;
             playPauseButton().restart();
             cycleStart = false;
             //change the time for main chart

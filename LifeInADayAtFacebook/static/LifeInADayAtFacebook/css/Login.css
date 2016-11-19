@@ -93,6 +93,10 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+#header p a{
+     text-decoration: none;
+}
+
 #footer{
    /* padding: 19em 5em 1em 38em;*/
    /* text-align: center;*/

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Login</title>
     {% load static %}
-    <link href="https://lifeinadayatfacebook.herokuapp.com/LifeInADayAtFacebook/static/LifeInADayAtFacebook/css/Login.css" rel="stylesheet" type="text/css">
+    <link href="{% static  'LifeInADayAtFacebook/css/Login.css' %}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -14,8 +14,13 @@
         <span class="logo"><img src=""></span>
         <h1>( Life in a Day at Facebook )<sub>Beta</sub></h1>
         <p> Interactive visualization of what you do, how you spend time and, </br>
-            how your life looks like in a day at </br> Facebook or other Social Media</br>
-        <a href="demo">Demo</p>
+            how your life looks like in a day at </br> Facebook or other Social Media</br></p>
+        <p><a href="demo">Demo</a>
+        <span>|</span>
+        <a href="https://www.surveymonkey.com/r/X28T53C">User Survey
+        <span>|</span>
+      <a href="https://github.com/NitishDhakal/LifeInADayAtFacebook">Fork on GitHub</p>
+
     </header>
     <div class="loginWrapper">
         <div class="backgroundColorLoginWrapper"></div>

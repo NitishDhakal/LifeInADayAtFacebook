@@ -42,7 +42,7 @@ INSTALLED_APPS = [
 ]
 #SOCIAL_AUTH_STORAGE = 'social.apps.django_app.me.models.DjangoStorage'
 
-MIDDLEWARE_CLASSES = [
+MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -85,11 +85,11 @@ WSGI_APPLICATION = 'VisualizationFinalProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.dummy',
-        'NAME': 'heroku_t5wp6bkm',
-        'USER': 'nitish',  # The following settings are not used with sqlite3
-        'PASSWORD': 'db1234',
-        'HOST': 'ds157987.mlab.com',      # Empty for localhost through domain sockets  or '127.0.0.1' for localhost through TCP.
-        'PORT': '57987',      # Set to empty string for default.
+        'NAME': '',
+        'USER': '',  # The following settings are not used with sqlite3
+        'PASSWORD': '',
+        'HOST': '',      # Empty for localhost through domain sockets  or '127.0.0.1' for localhost through TCP.
+        'PORT': '',      # Set to empty string for default.
     }
 }
 
@@ -98,7 +98,7 @@ AUTHENTICATION_BACKENDS = (
     'mongoengine.django.auth.MongoEngineBackend',
     'django.contrib.auth.backends.ModelBackend',
  )
-MONGO_DATABASE_NAME = 'heroku_t5wp6bkm'
+MONGO_DATABASE_NAME = 'LIADIF'
 
 connect(MONGO_DATABASE_NAME)
 
@@ -142,7 +142,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
-STATIC_ROOT = 'staticfiles/'
+
 STATIC_URL = '/static/'
 
 #LifeInADaySettings

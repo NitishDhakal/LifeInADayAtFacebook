@@ -214,7 +214,6 @@ def post_and_comments_by_created_date_demo(request, year_from, month_from, day_f
 
     posts = UserPosts.objects(created_time__gte=start_date, created_time__lte=end_date).order_by(
         'created_time')
-    return posts
     resultant_list = []
     if len(posts) > 0:
         start_date_comment = posts[len(posts) - 1].created_time

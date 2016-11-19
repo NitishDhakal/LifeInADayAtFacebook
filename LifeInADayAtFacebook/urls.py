@@ -14,12 +14,10 @@ urlpatterns = [
     url(r'^UserList', views.userlist, name='userlistapi'),
     url(r'^PostAndCommentsByCreatedDate/(?P<userid>\w{1,100})/(?P<year_from>\d{4})/(?P<month_from>\d{1,2})/(?P<day_from>\d{1,2})/(?P<year_to>\d{4})/(?P<month_to>\d{1,2})/(?P<day_to>\d{1,2})/(?P<is_first>\d{1})$', views.post_and_comments_by_created_date, name='postandcommentapi'),
 
-	url(r'^PostAndCommentsByCreatedDateDemo/(?P<year_from>\d{4})/(?P<month_from>\d{1,2})/(?P<day_from>\d{1,2})/(?P<year_to>\d{4})/(?P<month_to>\d{1,2})/(?P<day_to>\d{1,2})$', views.post_and_comments_by_created_date_demo, name='postandcommentapidemo'),
+url(r'^PostAndCommentsByCreatedDateDemo/(?P<year_from>\d{4})/(?P<month_from>\d{1,2})/(?P<day_from>\d{1,2})/(?P<year_to>\d{4})/(?P<month_to>\d{1,2})/(?P<day_to>\d{1,2})$', views.post_and_comments_by_created_date_demo, name='postandcommentapidemo'),
 
 
-]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-
-
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 
 
