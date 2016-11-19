@@ -12,3 +12,5 @@ Our main objectives are:
 3.      To view the activities in Facebook or Twitter in a moving timeline at our own speed.
 
 Amazon AWS instance : http://35.161.146.25:8000/LifeInADayAtFacebook/demo
+
+This version is better viewed in Google Chrome.(Some bugs in Mozilla still exits like the instance chart is not shown in  firefox.)
