@@ -21,6 +21,7 @@ Amazon AWS instance : http://35.161.146.25:8000/LifeInADayAtFacebook/demo
 This version is better viewed in Google Chrome.(Some bugs in Mozilla still exits like the instance chart is not shown in  firefox.)
 
 FEATURES
+
 LIADAF has 10 features as shown in Figure 2. However, we have listed the 6 prominent ones as explained below.
 1.	Main Moving Chart
 This is the heart of the application as well as the main area of user focus. This contains the vertical time line with user posts and comments on either side of the timeline. The interaction widget was developed with svg entirely so as to provide efficient scaling and also because html divs are not supported within svg element. In the main moving char, user post and comment appears alternatively along the selected date range on either side of vertical timeline. 
@@ -41,9 +42,11 @@ This widget provides the percentage of time spend by the user in Facebook or Twi
 This widget is essential in giving user high level knowledge about the data. The main chart and navigation chart has to be moved until end to see all the occurring of interaction data. However, with this widget, user can view the interaction instances between the selected date range in advance to moving the vertical chart. There is also a presence of horizontal moving bar to make user better understand the interaction occurrences along the selected date range.
 
 ARCHITECTURE
+
 MVC based python web framework called “Django” is being used as the backend in this project. The choice of using this framework was lightness of the framework, clear separation of concerns among code and templates and ORM (Object Relational Mapper) tool. The ORM in Django is really powerful with advanced querying features that supports multiple databases. We have Mongo dB as our backend and Mongoengine as our ORM. Although we could have used PostgreSQL as our backend, of which Django has lots of support, we decided to go with MongoDb for learning purposes. To build our APIs, we relied upon Django REST framework which is equally powerful and simple to configure. The server side has used MVC (Model View Controller) pattern or rather MTV (Model Template Controller) while the client side scripting has leveraged the closure and singleton pattern as a design pattern. The codes are provided as an open source and we have tried to follow the necessary coding standards. 
 
 APPLICATION FLOW
+
 1.	User goes into our home page (Login.html) and chose whether he wants to login through Facebook or Twitter
 2.	After login in S/he would have to give the necessary credentials and “use post” permission in Facebook or Twitter. This is the necessary step to produce data. If user does not provide the access to the user feed, then the application would not work.
 3.	After step 2, the application fetches the 2-month old profile information of the user and save it in Mongo DB data store and format the data and send it to the view to render.
