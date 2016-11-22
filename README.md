@@ -1,4 +1,4 @@
-# LifeInADayAtFacebook
+# Life In A Day At Facebook
 A day of life in social media through visual analytics
 
 There has been significant rise in number of users in social networks over the time. These users have different types of interactions in the social network. If we consider Facebook, likes, comments, posts are most common modes of the interactions. In twitter people tweet, retweet, follow, hashtag etc. There is no doubt that people spend quite significant amount of their time per day in these social network and their time remains unaccounted.
