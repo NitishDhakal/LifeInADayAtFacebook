@@ -16,7 +16,7 @@ With the interactive charts rendered by D3, jQuery and JavaScript in the front e
 
 Demo:
 
-Amazon AWS instance : http://35.161.146.25:8000/LifeInADayAtFacebook/demo
+Amazon AWS instance : http://52.34.56.4:8000/LifeInADayAtFacebook/demo
 
 This version is better viewed in Google Chrome.(Some bugs in Mozilla still exits like the instance chart is not shown in  firefox.)
 
